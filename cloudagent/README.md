@@ -12,13 +12,13 @@ python 2.7 is required
 #cp scripts/salt-local /opt/salt/bin/
 #cp scripts/saltlocal.py /opt/salt/bin
 ```
-# run test
+### run test
 login again
 ```
 #/opt/salt/bin/salt-local --grains
 ```
 
-#make package
+#### make package
 ```
 #find /opt/salt -name \*.pyc -exec rm -f {} \;
 #cd /opt/
